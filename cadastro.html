@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GGFarma - Página de Cadastro</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+	</head>
+
+	<body>
+		<div id="area-cabecalho">
+			<div id="area-logo">
+				<h1>GG<span class="branco">Farma</span></h1>
+			</div>
+			<div id="area-menu">
+				<a href="index.html">Home</a>
+					<form style="float: right;">
+						<label for="busca">Buscar:</label>
+						<input type="text" id="busca" name="busca" placeholder="Digite o nome">
+						<input type="submit" id="buttonBuscar" value="Buscar" name="buscar">
+					</form>
+			</div>
+		</div>
+
+		<div id="area-principal">
+			<div id="area-postagens">
+				<!-- Conteudo principal-->
+				<div class="postagem">
+					<h2>Cadastro</h2>
+					<form>
+					  <div class="form-group espacamento">
+						    <label for="Email">Email</label>
+						    <input type="email" class="form-control" id="Email" placeholder="email@email.com">
+						  </div>
+
+						  <div class="form-group espacamento">
+						    <label for="nome">Nome</label>
+						    <input type="text" class="form-control" id="nome" placeholder="Nome">
+						  </div>
+
+						  <div class="form-group espacamento">
+						    <label for="data">Data de nascimento</label>
+						    <input type="date" class="form-control" id="data">
+						  </div>
+
+						  <div class="form-group espacamento">
+						    <label for="telefone">Telefone</label>
+						    <input type="tel" class="form-control" id="telefone" placeholder="(99) 9999-9999">
+						  </div>
+
+						  <div class="form-group espacamento">
+						    <label for="senha">Senha</label>
+						    <input type="password" class="form-control" id="senha"  placeholder="Senha">
+						  </div>
+
+						  <div class="form-group espacamento">
+						    <label for="senha2">Repita a senha</label>
+						    <input type="password" class="form-control" id="senha2" placeholder="Senha">
+						  </div>
+
+						  <button type="submit" class="btn btn-primary">Cadastrar</button>
+					</form>
+					
+				</div><!-- Fechamento do conteudo-->
+
+
+			</div>
+
+			<div id="area-lateral">
+				<div class="conteudo-lateral">
+					<h3>Login</h3>
+					<div class="postagem-lateral">
+						<form>
+						  <div class="form-group espacamento">
+						    <label for="Email1">Email</label>
+						    <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="email@email.com">
+						    <small id="emailHelp" class="form-text text-muted"></small>
+						  </div>
+						  <div class="form-group espacamento">
+						    <label for="Password1">Password</label>
+						    <input type="password" class="form-control" id="Password1" placeholder="Senha">
+						  </div>
+						  <div class="form-check">
+						    <input type="checkbox" class="form-check-input" id="Check1">
+						    <label class="form-check-label" for="Check1">Lembrar</label>
+						  </div>
+						  <button type="submit" class="btn btn-primary">Logar</button>
+						</form>
+						<a href="cadastro.html">Criar Conta</a>
+					</div>
+				</div>
+
+			 
+			</div>
+
+			<div id="rodape">
+				Todos os direitos reservados
+			</div>
+		</div>
+	</body>
+</html>
