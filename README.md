@@ -11,21 +11,33 @@
 <!-- Apresentar o tema. -->
 ### 1. Tema
 
-  O trabalho final tem como objetivo a implementação de um sistema de farmácia(distribuidora de medicamentos), onde serão disponibilizados alguns medicamentos com suas respectivas características e valores. 
+  O trabalho final tem como objetivo a implementação de um sistema de farmácia(distribuidora de medicamentos), onde serão disponibilizados alguns medicamentos com suas respectivas características e valores, de forma a disponibilizar ao usuário mais informações acerca dos medicamentos para que o mesmo se insira cada vez mais nesta forma de mercado gozando de  mais agilidade e comodidade.
 
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
 
-  O aplicação irá exibir remédios que estejam disponíveis no estoque indicando seus respectivos preços e descrições, será possível também a execução de buscas por medicamentos os quais a empresa disponibiliza em seu estoque, as compras serão armazendas em uma espécie de carrinho(onde também podem ser retiradas), cada cliente também poderá se cadastrar no site com seus respectivos dados.
+  *O aplicação irá exibir remédios que estejam disponíveis no estoque indicando seus respectivos preços e descrições.
+
+  *Será possível também a execução de buscas por medicamentos os quais a empresa disponibiliza em seu estoque, as compras.
+
+  *Serão armazendas em uma espécie de carrinho(onde também podem ser retiradas).
+
+  *Cada cliente também poderá se cadastrar no site com seus respectivos dados.
 
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
-  Neste trabalho não serão considerados os sistemas de pagamento e calculo de frete, levando em conta se tratar de um site fictício, página de "esqueci minha senha".
+  Neste trabalho não serão considerados sistemas de pagamento, cálculo de frete, recuperação de usuário e senha.
+  O intuito é evidenciar a funcionalidade do sistema em seu cerne.
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
-  O protótipo conterá as páginas Página principal, Página de cadastro, Página de Controle de estoque.
+  O Sistema a princípio  conterá as telas:
+   *Página principal : Serão exibidas informções gerais do sistema, com opções de cadastro e busca por medicamentos
+
+   *Página de cadastro: O usuário só consegue comprar algum produto se estiver cadastrado no sitema, quando ele acionar a oção de cadastro será direcionado a uma página para inserir seus dados.
+
+   *Página de Controle de estoque: Esta página é característica do banco de dados, por isso não foi finalizada, a partir de um banco de dados com os produtos alocados será exibida na página, a disponibilidade dos medicamentos para que possam ser buscados para obervação de suas informações e para compras.
   
 ### 5. Referências
 <https://www.w3schools.com/> Acesso em: 04 de maio de 2019
