@@ -40,10 +40,17 @@
    *Página de Controle de estoque: Esta página é característica do banco de dados, por isso não foi finalizada, a partir de um banco de dados com os produtos alocados será exibida na página, a disponibilidade dos medicamentos para que possam ser buscados para obervação de suas informações e para compras.
    
    *Link do protótipo: <https://github.com/UFOP-CSI477/2019-01-trabalho-final-2019-01-guilherme-gabriel/tree/master/Prototipos>
+
+### 5. Tecnologia usadas
+  PHP, HTML, MYSQL, javascript, laravel, bootstrap.
   
-### 5. Referências
-<https://www.w3schools.com/> Acesso em: 04 de maio de 2019
-<https://getbootstrap.com/> Acesso em: 04 de maio de 2019
-  
-  
+### 6. Referências
+  <https://www.w3schools.com/> Acesso em: 04 de maio de 2019
+  <https://getbootstrap.com/> Acesso em: 04 de maio de 2019
+  <https://stackoverflow.com/questions/47726929/type-error-too-few-arguments-to-function-app-http-controllers-usercontroller> Acesso em: 11 de julho de 2019
+  <https://laravel.com/docs/5.8> Acesso em: 11 de julho de 2019  
+  <https://www.w3schools.com/js/js_validation.asp> Acesso em: 11 de julho de 2019  
+  <https://www.youtube.com/watch?v=wvCDej8Cf9Y&t=1314s> Acesso em: 11 de julho de 2019  
+  <https://www.youtube.com/watch?v=uAqoAzhxwjU> Acesso em: 11 de julho de 2019  
+  <https://www.w3schools.com/jsref/jsref_replace.asp> Acesso em: 11 de julho de 2019  
 
