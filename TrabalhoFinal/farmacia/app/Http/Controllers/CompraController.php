@@ -63,7 +63,7 @@ class CompraController extends Controller
             'estado' => $request->estado,
             'cidade' => $request->cidade,
         ]);
-        return redirect(route('compras.index'));
+        return redirect(route('remedios.index'));
     }
 
     /**
@@ -122,7 +122,7 @@ class CompraController extends Controller
     //função usada para deletar tuplas do banco de dados
     public function destroy(compra $compra)
     {
-        $remedio->delete();
+        $compra->delete();
         return redirect(route('remedios.index'));
     }
 }
